@@ -1,0 +1,33 @@
+.GrupBox_main_container {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.4rem;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.GrupBox_main_container:hover {
+  background-color: #fafafa;
+}
+.Group_image {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.Group_name_div {
+  margin-left: 1rem;
+}
+.GroupHeding {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.Grup_Totle_Online {
+  margin-left: 14rem;
+}
+
+.Group_Totle_Online_Text {
+  color: #7a7f9a;
+}

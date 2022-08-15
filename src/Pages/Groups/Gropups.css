@@ -1,0 +1,138 @@
+.Groups_main_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Grups_contect_main_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.Grups_contect_main_div::-webkit-scrollbar {
+  width: 8px;
+}
+
+.Groups_main_container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.Groups_main_container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.CreateGroup {
+  width: 100%;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.Newgroup {
+  background-color: #4c43c3; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.GroupaddAbsolute {
+  width: 350px;
+  background-color: white;
+  /* f7f7ff */
+  visibility: hidden;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+.activestatus {
+  visibility: visible;
+  z-index: 3;
+}
+.closeicon {
+  margin-left: 325px;
+  font-size: 100px;
+  cursor: pointer;
+}
+.Groupboxcontainer {
+  width: 100%;
+  height: 50vh;
+  overflow-y: scroll;
+}
+.groupbox {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0px;
+  margin: 10px 0px;
+}
+.groupbox h1 {
+  font-size: 20px;
+}
+.label1 {
+  font-size: 12px;
+  color: gray;
+}
+.Groupname {
+  width: 100%;
+  height: 5vh;
+  margin: 5px 0px;
+}
+
+.groupaddbtn {
+  background-color: #4c43c3; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.groupcontaineradd {
+  height: 35vh;
+  overflow-y: auto;
+  margin: 0.5rem 0rem;
+}
+
+.UsergroupBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+}
+.UsergroupBox h1 {
+  font-size: 20px;
+}
+
+.groupcheck {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.middlecontainer {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon_size_navigation {
+  font-size: 2rem !important;
+  cursor: pointer;
+  color: #7a7f9a;
+}

@@ -1,0 +1,66 @@
+.Left_side_contaienr {
+  width: 32%;
+  background-color: #f7f7ff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.icons_nav {
+  color: white;
+  cursor: pointer;
+  font-size: 2rem !important;
+}
+
+.leftsidecontainer_users_main_box {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  background-color: #f7f7ff;
+
+  margin-top: 30px;
+  overflow-y: scroll;
+}
+
+.Search_div_users {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.search_backgrund_color {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  background-color: #d8e2f5;
+  padding: 5px 0px;
+}
+
+.leftsicecontainer_status_main_container {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.leftsidecontainer_users_main_box::-webkit-scrollbar {
+  width: 8px;
+}
+.leftsidecontainer_users_main_box::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.leftsidecontainer_users_main_box::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
+.search_input {
+  color: #e6ebf5;
+}
+@media screen and (max-width: 360px) {
+  .Left_side_contaienr {
+    width: 100%;
+  }
+}

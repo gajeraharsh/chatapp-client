@@ -1,0 +1,78 @@
+.Auth_Main_container {
+  width: 100%;
+  height: auto;
+  background-color: #f7f7ff;
+  display: flex;
+  justify-content: center;
+}
+
+.Auth_sub_container {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Auth_first_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.web_app_name_auth {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.web_app_page_heading {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.web_app_page_heading_sub {
+  margin-top: 5px;
+  color: #7a7f9a;
+}
+.inputS_wraper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Auth_second_contaienr {
+  margin-top: 2rem;
+  background-color: #fff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_tag_Auth {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Auth_inputs_buttome {
+  width: 85%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text_buttom {
+  padding: 2rem 0rem;
+}
+.Link_auth {
+  color: blue;
+  cursor: pointer;
+}
+
+.Login_Error {
+  color: red;
+  margin-top: 20px;
+}

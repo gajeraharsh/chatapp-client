@@ -1,0 +1,16 @@
+.Contect_Main_Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Contect_Bottome_Container{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ /* max-height: 72vh; */
+ height: 70vh;
+
+    overflow: auto;
+
+}

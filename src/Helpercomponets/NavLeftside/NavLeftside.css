@@ -1,0 +1,21 @@
+.nav_leftside_maiun_contaienr {
+  width: 100%;
+  background-color: #4c43c3;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_left_icons_left {
+  margin-left: 6px;
+}
+.nav_left_icons_right {
+  margin-right: 6px;
+}
+
+.logoimage {
+  font-weight: bold;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

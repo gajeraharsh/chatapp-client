@@ -1,0 +1,81 @@
+.ContectBox_main_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.Contect_Box_div {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.8rem;
+  border-radius: 5px;
+}
+
+.contect_Box_Icon {
+  cursor: pointer;
+  font-size: 1.3rem !important;
+  color: #7a7f9a !important;
+}
+.contect_Box_Name {
+  color: #495057;
+}
+.contect_min_text {
+  font-size: 13px;
+  margin-left: 3.8rem;
+}
+.context_icons {
+  position: relative;
+}
+.Context_box_List {
+  position: absolute;
+  top: 20px;
+  left: -250px;
+  background-color: #fff;
+  visibility: hidden;
+  box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
+  z-index: 2;
+  transition: left 1s ease-in-out;
+}
+.Context_box_List_active {
+  height: auto;
+  visibility: visible;
+  left: -150px;
+}
+
+.Box_List_ul {
+  width: 150px;
+  list-style: none;
+}
+.Box_Lisst_Li {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.5rem 0rem;
+}
+
+.Box_Lisst_Li:hover {
+  background-color: #f7f7f7;
+}
+
+.cpmtect_box_image {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contect_email {
+  width: 100%;
+}
+
+.h1div_context {
+  width: 100%;
+
+  margin-left: 20px;
+}
+.contect_box_div_container {
+  width: 100%;
+}
